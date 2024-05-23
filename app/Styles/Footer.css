@@ -1,0 +1,80 @@
+
+        #footerMainContainer{
+
+
+            position: absolute;
+            bottom: 0; 
+            left: 0; 
+            right: 0; 
+
+
+
+        }
+
+
+        #footerSubContainer{
+
+            position: relative; 
+            width: 99.99vw; 
+            min-height: 5.5rem;
+
+            backdrop-filter: blur(4px) saturate(160%);
+            -webkit-backdrop-filter: blur(4px) saturate(160%);
+            background-color: rgba(17, 25, 40, 0.22);
+            border: 1px solid rgba(255, 255, 255, 0.125);
+
+            
+
+        }
+
+
+        #footerList{
+
+            width: max-content; 
+            margin: 1rem auto; 
+            display: flex;
+            justify-items: center;   
+            align-items: center;
+
+        }
+
+
+        #footerListItem{
+
+            margin: 1rem 1.5rem; 
+          color: #aaaaab; 
+
+           
+            cursor: pointer;
+            
+        }
+
+
+
+    /* Add in the media query here */
+/* Add in more top margin to hero */
+
+@media(max-width: 770px){
+
+
+    #hero{
+
+        margin-top: 5rem; 
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
